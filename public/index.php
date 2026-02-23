@@ -1,4 +1,4 @@
-
+<?php
 if (session_status() === PHP_SESSION_NONE) session_start();
 
 // Redirect to dashboard if logged in, otherwise to login
